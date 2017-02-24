@@ -1,0 +1,441 @@
+/* 
+ESTILIZAÇÃO COMPLETA DA AREA DE 
+CONTEUDO DO SITE (CAMINHO DE MILHAS, MENU E AREA DE CONTEUDO) 
+*/
+/*
+CAMINHO DE MILHAS
+*/
+html, body {overflow-x:hidden; }
+.cont-caminho-nav {position: relative;; margin: 10px auto;}
+.cont-caminho-nav li {display: inline-block; float: left; list-style: none; font-size: 13px; color: #1f3f7f; }
+.cont-caminho-nav li a {color: #26abe2; font-size: 13px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;}
+.cont-caminho-nav li a:hover {text-decoration: underline; color: #1f3f7f;}
+.cont-caminho-nav li span {padding: 0 5px; color: #26abe2;}
+.cont-caminho-nav li i {font-weight: bold;}
+.menu-suspenso {display: none;}
+.collapse {display: block;}
+/*
+MENU DE NAVEGAÇÃO INTERNA
+*/
+.cont-center {position: relative; margin: 50px auto;}
+.cont-center aside {padding: 0 15px 0 0; margin: 0;}
+.cont-center aside ul {margin: 0; padding: 0;}
+.cont-center aside ul li {width: 100%; height: auto; display: block; list-style: none; padding: 1px 15px; margin-bottom:1px;}
+.cont-center aside ul h2 {margin: 0 0 1px 0; font-size: 30px; font-weight: bold; color: #24316d; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;}
+.cont-center aside ul li a {font-size: 14px; color: #26abe2; text-decoration: none; transition: all 0.3s ease;}
+.cont-center aside ul li a:hover {color: #ffb03c; text-decoration: none;} 
+
+.cont-center article h1 {position: relative; padding: 0px 0px 8px 0px; font-size: 38px;  margin:0 0 15px 0; border-bottom: 1px solid#e5e5e5; font-weight: bold; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #ffb03c; text-transform: uppercase;}
+.cont-center article h2 {padding: 0; font-size: 28px; margin: 30px 0 10px 0; font-weight: bold; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #24316d;}
+.cont-center article h3 {padding: 0; font-size: 24px; margin: 30px 0 5px 0;  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #24316d; font-style: italic;}
+.cont-center article h1 span {width: 50px; height: 50px; position: absolute; margin: 0 0 0 -50px;}
+.cont-center article p {font-size: 13px; color: #686868; margin: 4px 0;}
+.cont-center article iframe {width: 100%; height: 380px; margin: 20px 0;}
+.cont-center article img {margin-bottom: 20px; width: 100%;}
+.cont-center li {list-style: none;}
+.cont-center a {color:#26abe2; transition: all 0.3s ease; text-transform: none; margin-bottom: 6px;}
+.cont-center a:hover {text-decoration: underline; color:#ffb03c;}
+/*
+COMPLEMENTOS
+*/
+.italico-upp {margin: 30px 0 !important; font-style: italic; text-transform: uppercase;}
+.cont-center article .cont-estrutural {width: 100%; margin: 40px 0; border-bottom: 1px solid#26abe2; padding-bottom: 30px; display: table;}
+.cont-center article .cont-estrutural h1 {margin: 0; padding: 0; font-size: 24px; font-weight: bold; border: none; color: #24316d; text-transform: none;}
+.cont-center article .cont-estrutural h2 {margin: 0; padding: 0; font-size: 18px; font-style: italic; color: #26abe2;}
+.cont-center article .cont-estrutural p {margin-bottom: 20px;} 
+.cont-center article .cont-estrutural a {padding: 14px; text-align: center; background: #26abe2; color: #fff; padding: 10px 40px;}
+.cont-center article .cont-estrutural h3 {font-size: 14px; text-transform: lowercase; margin-bottom: 20px; }
+.cont-center article .cont-estrutural h3 a {padding: 0; font-size: 14px; background: none; color: #686868;}
+
+.cont-center article .cont-list-manual {position: relative; width: 100%; height: auto; display: table; margin-bottom: 20px; text-align: left; padding-bottom:20px;  border-bottom: 1px solid#e5e5e5; }
+.cont-center article .cont-list-manual h1 {padding: 0; margin: 30px 0; font-size: 24px; color: #24316d; text-transform: none; border: none;}
+.cont-center article .cont-list-manual a {padding: 0 0 0 25px; font-size: 16px; color: #000;  position: relative;}
+.cont-center article .cont-list-manual span {width: 34px; height: 34px; position: absolute; margin: -15px 0 0 -38px;}
+
+.cont-center article .cont-na-midia {width: 100%; height: auto; padding: 20px 0;}
+.cont-center article .cont-na-midia h1 {border: none; margin: 5px;}
+.cont-center article .cont-na-midia ul {margin: 0; padding: 0;}
+.cont-center article .cont-na-midia li {list-style: none; padding: 2px 15px;}
+
+.cont-center article .list-001 {width: 100%; padding: 0; margin: 20px 0; display: table; text-align: left;}
+.cont-center article .list-001 h1 {margin: 0; padding: 0; font-size: 24px; border: none; text-transform: none; color: #24316d;}
+.cont-center article .list-001 li {width: 50%; display: inline-block; float: left; height: auto;}
+
+.cont-center article .list-002 {width: 100%; padding: 0; margin: 20px 0; display: table;}
+.cont-center article .list-002 li {list-style: none; width: 50%; float: left; display: inline-block; margin: 5px 0;}
+
+.cont-center article .list-003 {width: 100%; padding: 0; margin: 20px 0; display: table; text-align: center;}
+.cont-center article .list-003 li {list-style: none; width: 33.33333333%; float: left; display: inline-block; border: 5px solid#fff; margin-bottom: 35px; }
+.cont-center article .list-003 h1 {margin: 0; padding: 0; font-size: 24px; color: #24316d; border: none; text-transform: none;}
+.cont-center article .list-003 span {width: 31px; height: 31px; display: inline-block; position: relative; margin-top: 15px;}
+.cont-center article .list-003 li img {width: auto !important}
+
+.cont-center article .list-005 {width: 100%; height: auto; padding: 20px 0;}
+.cont-center article .list-005 li {list-style: none; width: 18%; text-align: center; float: left; display: inline-block; margin: 1%;}
+.cont-center article .list-005 img {border: 3px solid#26abe2;}
+.cont-center article .list-005 h2 {margin: 0; font-size: 18px; color: #999; font-style: italic;}
+
+.cont-center article .list-006 {width: 100%; height: auto; padding: 0; margin: 0; display: table; margin-top: 35px;}
+.cont-center article .list-006 li {list-style: none; width: 50%; text-align: left; float: left; display: inline-block;}
+.cont-center article .list-006 li ul {margin: 0; padding: 0;}
+.cont-center article .list-006 li ul li { width: 100%; padding-top: 10px; display: table;}
+.cont-center article .list-006 h1 {padding: 0; font-size: 24px; border: none; color: #24316d; text-transform: none; margin: 0;}
+.cont-center article .list-006 h2 {margin:0; padding: 0; font-size: 18px;}
+.cont-center article .list-006 h3 {margin:0; padding: 0; font-size: 14px;}
+.cont-center article .list-006 h4 {margin:0; padding: 0; font-size: 14px;}
+
+.cont-center article .list-007 {width: 100%; height: auto; padding: 0; display: table;}
+.cont-center article .list-007 li {list-style: none; width: 50%; text-align: left; float: left; display: inline-block; padding-left: 15px;}
+
+.cont-center article .list-008 {width: 100%; padding: 0; margin: 0; display: table; text-align: center;}
+.cont-center article .list-008 li {list-style: none; width: 19%; padding: 15px; border: 1px solid#ccc;  float: left; display: inline-block; text-align: center; margin: 0.2%;}
+.cont-center article .list-008 li img { width: auto; height: auto; margin: 0;}
+
+.cont-center article .list-009 {width: 100%; padding: 0; margin: 0 0 40px 0; display: table; text-align: center;}
+.cont-center article .list-009 li {list-style: none; padding: 15px; width: 25%; float: left; display: inline-block; background: #26abe2; border: 1px solid#fff; color: #fff; cursor: pointer; transition: all 0.3s ease}
+.cont-center article .list-009 li:hover {background: #ffb03c}
+.cont-center article .list-009 li h2 {font-size: 18px; margin: 0; color: #fff;}
+.cont-center article .list-009 .active-01 {background: #24316d;}
+.cont-center article .list-009 img {margin: auto; width: auto; height: auto;}
+
+.cont-center article .list-010 {width: 100%; padding: 0; margin: 50px 0; display: table;}
+.cont-center article .list-010 li {list-style: none; position: relative; padding: 15px; width: 20%; float: left; display: inline-block; background: #26abe2; border: 1px solid#fff; color: #fff; text-align: center; cursor: pointer; transition: all 0.3s ease}
+.cont-center article .list-010 li:hover {background: #ffb03c;}
+.cont-center article .list-010 li h2 {font-size: 18px; margin: 0; color: #fff;}
+.cont-center article .list-010 img {margin: 20px 0; width: auto; height: auto;}
+.cont-center article .list-010 ul { opacity: 0; position: absolute; top: -40px; right: -40px;  width: 150px; min-height: 120px; padding: 5px; background: #24316D; color: #fff; z-index: 100; font-size: 12px; height: 20px; text-align: left; border-radius: 10px; transition: all 0.3s ease}
+.cont-center article .list-010 li:hover ul {opacity: 1; right: -50px; top: -50px;}
+
+.cont-center article .list-011 {padding: 0; margin:0; display: table;}
+.cont-center article .list-011 li {width: 100%; height: auto; display: block; list-style: none; padding: 20px 0; margin: 20px 0; border-bottom: 1px solid#24316d;}
+.cont-center article .list-011 h1 {padding: 0; font-size: 22px; border: none; color: #24316d;}
+.cont-center article .list-011 h2 {padding: 0; margin: 0; font-size: 16px; color: #26abe2; font-style: italic;}
+
+.cont-center article .list-012 {padding: 0; margin:0; display: table; width: 100%;}
+.cont-center article .list-012 li {display: inline-block; list-style: none; float: left; border: 1px solid#fff; padding: 8px; }
+.cont-center article .list-012 li p {color: #fff; font-size: 14px; margin: 0;}
+.cont-center article .list-012 li a {color: #fff;}.cont-center article .list-012 li a:hover {color: #ffb03c;}
+.cont-center article .list-012 li:nth-child(1) {width: 70%; background: #26abe2;}
+.cont-center article .list-012 li:nth-child(2) {width: 15%; background: #26abe2; text-align: center;}
+.cont-center article .list-012 li:nth-child(3) {width: 15%; background: #24316d; text-align: center;}
+
+.cont-center article .list-013 {padding: 10px; margin:5px 0; display: table; width: 100%; border: 1px solid#fff; transition: all 0.2s ease;}
+.cont-center article .list-013 li {display: inline-block; list-style: none; float: left; padding: 10px;}
+.cont-center article .list-013:hover {border: 1px solid#000}
+.cont-center article .list-013 p {margin: 0; padding: 0;}
+.cont-center article .list-013 h2 {margin: 0; padding: 0; font-size: 20px;}
+.cont-center article .list-013 li:nth-child(1) {width: 40%; color:#24316d; font-size: 16px; font-weight: bold;}
+.cont-center article .list-013 li:nth-child(2) {width: 60%; border-left: 1px solid#000;}
+
+.cont-center article .list-014 {padding: 0; margin:0; display: table; width: 100%;}
+.cont-center article .list-014 li {display: inline-block; list-style: none; float: left; border: 2px solid#fff; width: 33.333333%; text-align: center; background: #e5e5e5; padding: 0 50px; min-height: 150px;}
+.cont-center article .list-014 h1 { background: #26abe2; color: #fff; font-size: 28px; width: auto; border: none; padding: 10px; }
+.cont-center article .list-014 p {color: #26abe2; font-weight: bold; font-size: 16px;}
+
+.cont-center article .list-arquivos {padding: 0; margin:0; display: table; width: 100%;}
+.cont-center article .list-arquivos li {width: 100%; display: table; list-style: none; margin: 0; padding: 0; border-bottom: 1px solid#26abe2;}
+.cont-center article .list-arquivos li ul {width: 100%; margin: 0; padding: 15px 0px;}
+.cont-center article .list-arquivos li ul li {color: #26abe2; font-size: 16px; font-style: italic;}
+.cont-center article .list-arquivos li ul li a {color: #fff; background: #26abe2;; text-align: center; padding: 3px 10px;}
+.cont-center article .list-arquivos li ul li:first-child {display: inline-block; width: auto; float: left; border: none; position: relative; padding-left: 26px;}
+.cont-center article .list-arquivos li ul li:last-child  {display: inline-block; width: auto; float: right; border: none;}
+
+.cont-titulo-events {width: 100%; margin: 0; padding: 0; display: table;}
+.cont-titulo-events li {list-style: none; width: 25%; text-align: center; float: left; display: inline-block; text-align: center; padding: 10px; border-bottom: 1px solid#24316d; color: #24316d; font-size: 24px; font-weight: bold; }
+
+.desc-events {width: 100%; margin: 0; padding: 0; display: table; border-bottom: 1px solid#24316d;}
+.desc-events li {list-style: none; width: 25%; text-align: center; float: left; display: inline-block; text-align: center; padding: 10px; font-size: 13px; }
+
+
+.cont-calendario {position: relative; display: table; width: 100%; height: auto; margin: 20px 0;}
+.cont-calendario .meses {margin: 0; padding: 0; width: 100%; display: table; border-bottom: 1px solid#26abe2; color: #ffb03c}
+.cont-calendario li {list-style: none; display: inline-block; float: left; width: 100%; text-align: center;}
+.cont-calendario span {margin: 0; font-size: 38px; position: relative; border: none; text-transform: uppercase; font-weight: bold;}
+.cont-calendario .color-btn {font-size: 30px; color: #26abe2; cursor: pointer;}
+.cont-calendario .prev-cal {position: absolute; border: none; background: none; margin: 0;}
+.cont-calendario h2 {margin: 0; font-size: 18px;}
+.cont-calendario h2 span {margin: 0; font-size: 16px; font-weight: normal;}
+.cont-calendario .calendar-conteudo ul {margin: 0; padding: 0;}
+.cont-calendario .calendar-conteudo ul li {display: inline-block; float: left; padding: 15px; border: 1px solid#fff; min-height: 100px;}
+.cont-calendario .calendar-conteudo ul li h1 {border: none;  margin: 0; padding: 0; color: #fff; }
+.cont-calendario .calendar-conteudo ul li h2 {border: none;  margin: 0; padding: 0; color: #26abe2; font-size: 30px;}
+.cont-calendario .calendar-conteudo ul li:nth-child(1) {width: 15%; background: #26abe2; color: #fff; min-height: 150px}
+.cont-calendario .calendar-conteudo ul li:nth-child(2) {width: 15%; background: #e5e5e5; padding: 25px; display: none;}
+.cont-calendario .calendar-conteudo ul li:nth-child(3) {width: 85%; background: #e5e5e5; text-align: left; min-height: 150px}
+
+.cont-center article .cont-clinicas {width: 100%; height: auto; padding: 10px; position: relative; margin: 20px 0; display: table;}
+.cont-center article .cont-clinicas h1 {margin: 0; padding: 0; color: #24316d; font-size: 28px; text-transform: none; border: none;}
+.cont-center article .border-image {border: 3px solid#ffb03c; }
+.cont-center article .cont-bolsas-financ {margin: 30px 0; padding: 0;}
+.cont-center article .cont-bolsas-financ h1  {font-size: 28px; border: none;}
+.cont-center article .cont-bolsas-financ h2  {font-size: 24px; border: none;}
+
+.cont-center article .cont-vagas {width: 100%; height: auto; display: table; margin: 0; padding: 0;}
+.cont-center article .cont-vagas li {display: block; width: 100%; padding: 25px 0px 40px 0px; border-bottom: 1px solid#26abe2; position: relative;}
+.cont-center article .cont-vagas h3 {font-size: 20px; color:#26abe2; font-weight: bold;}
+.cont-center article .cont-vagas li span {position: absolute; right: 0; bottom: 0; background: #26abe2; padding: 10px 15px; text-align: center}
+.cont-center article .cont-vagas li span a {color: #fff;}
+
+.cont-center article form {width: 100%;}
+.cont-center article form input {margin: 10px 0;}
+.cont-center article form textarea {width: 100%; height: 120px; margin: 10px 0;}
+.sel-tutoriais {width: 100%; height: 45px; font-size: 18px; color: #fff; background:#26abe2; padding-left: 15px; border: none;}
+.sel-tutoriais option {font-size: 18px; color: #fff; padding-left: 15px;}
+
+.cont-center article .fale-resposta {width: 100%; height: auto; display: table; background: #ededed; padding: 10px;}
+.cont-center article .fale-resposta a {display: block;}
+.cont-center article .fale-resposta h3 {margin: 10px 0px; padding: 0;}
+
+/*
+	18/04/2016 - MENU E RODAPE
+*/
+.nav001 {width: 100%; height: auto; padding: 5px; background: #26ABE2; display: table;}
+.nav001 ul {margin: 0 auto; width: 1170px;}
+.nav001 ul li {list-style: none;float: right;display: inline-block; margin: 0 15px 0 0;}
+.nav001 ul li a {color: #fff;}
+.nav001 ul li:last-child{border-right: 1px solid#fff; padding-right: 15px;}
+.header-menu {padding: 25px 0;}
+.header-menu nav {padding: 15px 0;}
+.header-menu nav li {display: inline-block; float: left; text-align: center; width: 25%; padding: 0 25px; line-height:15px;}
+.header-menu nav li a {text-transform: uppercase; color: #24316d; text-decoration: none; font-size: 15px; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; font-weight: bold; transition: all 0.2s ease}
+.header-menu nav li a:hover {color: #26abe2;}
+.header-menu nav li span {display: block; width: 100%; height: 31px; margin-bottom: 5px;}
+.nav-menu {width: 100%; background: #e5e5e5;}
+.nav-menu nav li {
+	list-style: none; display: inline-block; float: left; width: 20%; text-transform: uppercase; text-align: center;
+	font-size: 15px; color: #fff; font-weight: bold; background: #26abe2; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	padding: 10px 0; border: 1px solid#e5e5e5; cursor: pointer; transition: all 0.2s ease;
+}
+.nav-menu nav li a {color: #fff; text-decoration: none;}
+.nav-menu nav li:hover {background: #24316d;}
+.nav-menu nav li ul {position: absolute; background: #24316d; margin: 10px 0 0 0; opacity: 0; visibility: hidden; width: auto; transform: translateX(5px); transition: all 0.2s ease;}
+.nav-menu nav li ul li {
+	display: inline-block; float: left; width: 230px; background: none; 
+	border: none; text-align: left; text-transform: none; padding: 20px 0px;
+}
+.nav-menu nav li:nth-child(3) ul li {width: 470px;}
+.nav-menu nav li ul li a {display: block; color: #fff; font-weight: normal; transition: all 0.2s ease;}
+.nav-menu nav li ul li a:hover {color: #26abe2; text-decoration: none;}
+.nav-menu nav span {display: block; color: #ffaf2f; font-size: 16px; text-transform: uppercase;}
+.nav-menu nav li:hover ul {opacity: 1; visibility: visible; transform: translateX(0px);}
+
+/*ICONES*/
+.ico-001 {background: url('../img/icos/h2.png') no-repeat center;}
+.ico-002 {background: url('../img/icos/h1.png') no-repeat center;}
+.ico-003 {background: url('../img/icos/h3.png') no-repeat center;}
+.ico-004 {background: url('../img/icos/h4.png') no-repeat center;}
+
+footer {display: table; background: #26abe2; width: 100%; padding: 50px 0px 150px 0px}
+footer .redes-sociais {position: relative;}
+footer .redes-sociais h2 {font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #fff; font-weight: bold; text-transform: uppercase;}
+footer .redes-sociais .cont-redes {width: 100%; height: 50px; padding: 15px 0px; background: #395482; color: #fff; font-weight: bold; font-size: 18px;  text-align: center; position: relative; }
+footer .redes-sociais .cont-redes .i-dec {position: absolute; height: 50px; right: 0; padding: 12px 20px; margin: 0; top: 0; text-align: center;}
+footer .redes-sociais .cont-redes span {position: absolute; left: -8px; margin-top: 15px; font-size: 20px; color:#395482; }
+
+footer .maps-site nav { margin-top: 40px; }
+footer .maps-site li {display: inline-block; float: left; list-style: none; width: 25%; padding: 0px 0px 40px 25px; border-right: 1px dashed#4c76a0;}
+footer .maps-site li span {display: block; text-transform: uppercase; font-weight: bold; color: #ffb03c; padding: 20px 0px 0px 0px; }
+footer .maps-site li a {display: block; color: #fff; font-size: 12px; padding: 2px 0px;}
+footer .maps-site li:last-child {border-right: none;}
+footer p {color: #fff; padding-top: 30px; }
+.linha-rede {width: 105%; height: 5px; background: #112f75; position: absolute; right: 15px; margin: 20px 0;}
+.linha-rede .l1 {width: 85%; height: 5px; background: #ffb03c; float: right;}
+
+.barra-fixa {width: 100%; padding: 30px 0px; background: #112f75; position: fixed; bottom: 0; z-index: 10000; display: none;}
+.barra-fixa h1 {margin:0; text-transform: uppercase; color: #fff; font-weight: bold;}
+.barra-fixa h1 span {color: #e68d25}
+.barra-fixa input[type="text"],input[type="email"] {height: 40px; border: none; padding: 5px;}
+.barra-fixa input[type="submit"] {height: 40px; background: #e68d25; text-align: center; font-weight: bold; border: none; color: #fff; padding: 0 15px;}
+.form::-moz-placeholder {color: #112f75; font-weight: bold;  opacity: 1;}
+.form:-ms-input-placeholder {color: #26abe2;}
+.form::-webkit-input-placeholder {color: #112f75; font-weight: bold;}
+
+/*ICONES*/
+.ico-institucional {background: url('../img/icos/institucional.png') no-repeat;}
+.ico-vida {background: url('../img/icos/vida-academica.png') no-repeat;}
+.ico-pesquisa {background: url('../img/icos/pesquisa.jpg') no-repeat;}
+.ico-formas {background: url('../img/icos/ico-formas.jpg') no-repeat;}
+.ico-psd {background: url('../img/icos/psd.png') no-repeat;}
+.ico-ai {background: url('../img/icos/ai.png') no-repeat;}
+.ico-png {background: url('../img/icos/png.png') no-repeat;}
+.ico-face {background: url('../img/ico-face.jpg') no-repeat;}
+.ico-twitter {background: url('../img/ico-twitter.jpg') no-repeat;}
+.ico-pdf {background: url('../img/icos/ico-pdf.jpg') no-repeat; position: absolute; margin: -2px 0 0 -30px; width: 25px; height: 22px;}
+/*
+	CORES
+*/
+.azul_face {background: #153789; color: #153789;}
+.azul_twitter {background: #35b4ff; color: #35b4ff;}
+.azul_yt {background: #0f1e4a; color: #0f1e4a;}
+.azul_in {background: #1943a9; color: #1943a9;}
+
+/*
+	22/04/2016 - PAGINA DE CURSOS: ;
+*/
+.new-foot a {color: #35b4ff; font-size: 18px; font-style: italic; text-decoration: none; margin: 0; padding:0 !important;}
+.new-foot span {color: #35b4ff; font-size: 18px; font-style: italic; text-decoration: none; margin: 0; padding:0 !important;}
+.new-foot p small {display: inline; font-size: 14px;}
+.cont-cursos {position: relative; margin: 20px auto 50px auto;}
+.cont-cursos header {margin-bottom: 20px;}
+.cont-cursos aside img {width: 100%; margin: 0 0 10px 0; }
+.cont-cursos aside label {color: #ffb03c; font-weight: bold; font-style: italic; font-size: 20px; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;}
+.cont-cursos aside h1 {color: #112f75; font-size: 20px; margin: 0 0 20px 0; font-weight: bold; text-transform: uppercase; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;}
+.cont-cursos aside a {display: block; padding: 2px 15px}
+.cont-cursos article h1 {position: relative; padding: 0px 0px 8px 0px; font-size: 38px;  margin:0 0 15px 0; border-bottom: 1px solid#e5e5e5; font-weight: bold; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #ffb03c; text-transform: uppercase;}
+.cont-cursos article h2 {padding: 0; font-size: 28px; margin: 15px 0 0 0; font-weight: bold; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #24316d;}
+.cont-cursos article p {font-size: 13px; color: #686868; margin: 4px 0;}
+.cont-cursos .detalhes-curso {margin: 0 0 15px 0; padding: 0; display: table; font-size: 14px;}
+.cont-cursos .detalhes-curso li {display: block; float: left; list-style: none; width: 100%;}
+.cont-cursos .detalhes-curso span {color: #35b4ff;}
+.cont-cursos .detalhes-curso a {color: #1943a9; text-decoration: underline; font-weight: bold;}
+.cont-cursos .cont-docente {margin: 0 0 15px 0; padding: 0; display: table; font-size: 14px;}
+.cont-cursos .cont-docente li {display: inline-block; float: left; width: 25%; text-align: center; margin-bottom: 30px;}
+.cont-cursos .cont-docente h5 {color: #1943a9; padding: 5px 20px; font-weight: bold; margin: 0;}
+.cont-cursos .cont-infra {margin-bottom: 20px;}
+.cont-cursos .cont-infra p span {color: #35b4ff; font-weight: bold;}
+.cont-cursos .cont-depoimentos {margin: 0 0 15px 0; padding: 0; display: table;}
+.cont-cursos .cont-depoimentos li {display: block; width: 100%; float: left; list-style: none; margin-bottom: 20px; border-bottom: 1px solid#35b4ff; padding: 10px 0;}
+.cont-cursos .cont-depoimentos img {width: 90%;}
+.cont-cursos .cont-depoimentos span {color: #35b4ff; font-weight: bold; font-style: italic; font-size: 18px; margin-bottom: 20px;}
+.cont-cursos small {color: #35b4ff; font-weight: bold; font-size: 18px; display: block;}
+/*
+	PAGINA DE CURSOS LIST
+*/
+
+.list030 {margin: 0; padding: 0; display: table; width: 100%; }
+.list030 li {display: inline-block; float: left; width: 33.333333%; padding: 15px;}
+
+.list031 {margin: 0; padding: 0; display: table; width: 100%; }
+.list031 li {display: inline-block; float: left; width: 100%; padding: 15px; }
+
+.list032 {margin: 0; padding: 0; display: table; width: 100%; }
+.list032 li {display: inline-block; float: left; width: 33.333333%; padding: 15px;}
+.list032 li:nth-child(3) {text-align: right;}
+
+.list-034 {margin: 20px 0; padding: 0; display: table; width: 100%; }
+.list-034 li {list-style: none; float: left; text-align: center; width: 25%; display: inline-block; padding: 15px; background: #e5e5e5; border: 2px solid#fff; height: 250px;}
+.list-034 li a {color: #35b4ff; font-weight: bold; font-size: 18px; display: block;}
+.list-035 {margin: 20px 0; padding: 0; display: table; width: 100%; }
+.list-035 li {display: inline-block; float: left; width: 50%; padding: 15px; }
+.list-035 li img {width: 100%}
+.inscricoes-gratuitas {width: 100%; height: auto; display: table; background: #24316d; padding: 5px; border-bottom: 3px solid#e68d25; text-align: center;}
+.inscricoes-gratuitas small {color: #e68d25; font-weight: 100; font-size: 26px; margin: 0; text-transform: uppercase;}
+.inscricoes-gratuitas h3 {color: #26abe2; font-weight: 900; font-size: 26px; margin: 0; text-transform: uppercase;}
+
+
+/*
+	HOME SÃO LUCAS
+*/
+.banner-home img {width: 100%;}
+.retranca-home {margin: 50px auto;}
+.retranca-home h1 {font-family: Calibri, Arial, sans-serif; font-size: 48px; color: #e68d25; text-align: center; text-transform: uppercase;}
+.retranca-home h1 span {font-weight: bold; color: #26abe2}
+.retranca-home h2 {position: relative; width: 100%; color: #fff; text-align: center; text-transform: uppercase; font-size: 16px; background: #35b4ff; padding: 15px 30px; margin: 0; font-weight: bold;}
+.retranca-home img {width: 100%; height: auto;}
+
+.cursos img{margin-bottom: 30px}
+
+.cont-n-cursos {padding: 0 0  50px 0; margin: 0; background: #f1f2f2; text-align: center;}
+.cont-n-cursos h1 {font-family: Calibri, Arial, sans-serif; width: 100%; padding: 20px 0; background:#24316d; text-align: center; font-size: 48px; color: #e68d25; margin: 30px 0 30px 0; border-bottom: 2px solid#e68d25;}
+.cont-n-cursos h1 span {font-weight: bold; color: #26abe2}
+.cont-n-cursos h2 {position: relative; width: 100%; color: #fff; text-align: center; text-transform: uppercase; font-size: 16px; background: #35b4ff; padding: 15px 30px; margin: 0; font-weight: bold;}
+.cont-n-cursos a {text-decoration: none;}
+.cont-n-cursos h3 {font-family: Calibri, Arial, sans-serif; text-transform: uppercase; color: #e68d25; font-weight: bold; text-align: center; font-size: 28px; }
+.carousel-inner p {color: #242D68 !important; font-size: 14px !important; background: #fff; padding: 3px;}
+.carousel-caption {text-shadow: none;}
+.cont-n-cursos .carousel {margin-bottom: 0;}
+.cont-n-cursos .carousel-control.right {right: -12px;}
+.cont-n-cursos .carousel-indicators {right: 50%; top: auto; bottom: 0px; margin-right: -19px;}
+.cont-n-cursos .carousel-indicators li {background: #c0c0c0;}
+.cont-n-cursos .carousel-indicators .active {background: #333333;}
+
+.retranca-marcas {margin: 50px auto;}
+.retranca-marcas h1 {font-family: Calibri, Arial, sans-serif; width: 100%; padding: 20px 0; text-align: center; font-size: 48px; color: #e68d25;}
+.retranca-marcas h1 span {font-weight: bold; color: #26abe2}
+.retranca-marcas img {width: 100%; display: block;}
+.retranca-marcas .marcas-res {width: 100%; background: #24316d; display: block; margin: 0; padding: 25px 10px; text-align: center;}
+.retranca-marcas h2 {margin: 0 0 20px 0; text-align: center; color: #ffb03c; font-size: 18px; font-weight: bold; text-transform: uppercase; }
+.retranca-marcas p {margin: 0 0 20px 0; padding: 0; text-align: center; font-size: 12px; color: #fff; }
+.retranca-marcas a {font-size: 16px; color: #fff; text-align: center; background: #ffb03c; padding: 10px 20px; }
+
+.cont-yt {background: #25316d; margin: 0; padding: 50px 0;}
+.cont-yt iframe {width: 100%; height: 450px;}
+.cont-yt img {width: 100%; margin: 5px 0 15px 0;}
+.cont-yt p {padding: 0; margin: 0; color: #fff; font-size: 16px;}
+.cont-yt h1 {padding: 0; margin: 0 0 20px 0; color: #fff; font-family: Calibri, Arial, sans-serif; font-size: 48px; font-weight: bold;}
+.
+/*
+	TODOS OS MODAIS DO SITE MODAIS
+*/
+.modal-header {color: #1943a9; font-size: 20px !important; margin:10px 0; font-weight: bold; text-transform: uppercase;}
+.modal-header .close {margin-top: -14px;}
+
+.modal-curriculo h1 {color: #1943a9; font-size: 26px; margin:0; font-weight: bold; text-transform: uppercase;  }
+.modal-curriculo h2 {color: #1943a9; font-size: 20px; margin:20px 0; font-weight: bold; }
+.modal-curriculo h3 {color: #1943a9; font-size: 18px; margin:10px 0; font-weight: bold; }
+.modal-curriculo p {margin: 0;}
+.modal-curriculo small {font-size: 14px; text-transform: uppercase;}
+
+.modal-periodo {padding:15px;}
+.modal-periodo h1 {color: #1943a9; font-size: 22px; margin:0; font-weight: bold; text-transform: uppercase;}
+.modal-periodo h2 {color: #35b4ff; font-size: 18px; margin:10px 0 0 0; }
+
+.modal-estrutura h1 {color: #1943a9; font-size: 20px; margin:10px 0; font-weight: bold; text-transform: uppercase;}
+.modal-curriculo p {margin: 0;}
+
+.menu-modal h1 {font-family: Calibri, Arial, sans-serif; font-weight: bold; font-size: 32px; color: #24316d; margin: 35px 0 0 0; padding: 0;}
+.menu-modal .border {margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid#ccc;}
+.menu-modal .modal-body span {font-family: Calibri, Arial, sans-serif; display: block; font-size: 16px; padding-top: 15px; color: #24316d; font-weight: bold; text-transform: uppercase; }
+.menu-modal a {display: block; padding: 0 0 3px 10px; font-size: 14px; color: #35b4ff; text-decoration: none; transition: all 0.2s ease; }
+.menu-modal a:hover {color: #ffb03c;}
+/*ESPACAMENTOS*/
+.nopadding {padding: 0 !important;}
+.espacamento30 {margin-bottom: 30px !important;}
+.espacamento31 {margin: 30px 0 !important;}
+
+
+/*FORMS*/
+.est001 {font-size: 38px;  margin: 0; font-weight: bold; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color: #ffb03c; text-transform: uppercase;}
+
+/*BOTÕES*/
+.btn-visualizar {padding: 5px 15px; text-align: center; background: #26abe2; color: #fff !important;}
+
+/*DUVIDAS FREQUENTES*/
+.cont-pergunta {cursor: pointer; width: 100%; height: auto; padding: 5px; font-size: 18px;  margin: 0 0 1px 0; background: #26abe2; color: #fff; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; transition: all 0.2s ease;}
+.cont-pergunta:hover {background:#ffb03c;}
+.cont-resposta {display: none; width: 100%; height: auto; background: #f2f2f2; padding: 5px; }
+.cont-resposta.ativo {display: block;}
+.ajuste{width: 100%;}
+
+/*MEDIA QUERY SITE SAO LUCAS*/
+@media (max-width: 740px) {
+.nav-menu nav li {width: 100%;}
+.nav-menu nav li ul {position: relative; visibility: visible;opacity: 1; background: #24316d; display: none;}
+.nav-menu nav li:nth-child(3) ul li {width: 100%;}
+.nav-menu nav li ul li {width: 100%;}
+.nav-menu nav li:hover ul {display: block;}
+.header-menu {padding: 5px 10px}
+.menu-suspenso {font-size: 32px; color: #24306b; position: absolute; right: 10px; top: 30px; display: block;}
+.banner-home {display: none;}
+footer .maps-site li {width: 100%;}
+.cont-cursos article h1 {margin: 20px 0; font-size: 32px;}
+footer .redes-sociais .cont-redes {width: 200px; margin: 2px auto;}
+footer .redes-sociais h2 {text-align: center;}
+footer {padding: 20px 0}
+.cont-center article h1 span {display: none}
+.cont-center article h1 {font-size: 32px;}
+.cont-center aside {padding: 10px;}
+.cont-caminho-nav {margin: 10px;}
+.collapse {display: none;}
+.header-menu nav li {width: 50%; margin: 5px 0; padding: 0;}
+.cont-n-cursos img {margin: 5px 0}
+.retranca-home img {margin: 5px 0}
+.retranca-marcas .marcas-res {margin: 0 0 5px 0}
+.nav001 ul {width: 100%}
+.cont-cursos header {display: none;}
+.nav-tabs > li {width: 100% !important; margin: 1px 0}
+.list030 li {width: 100%;}
+.list032 li {width: 100%; text-align: left !important;}
+.list-034 li {width: 100%;  height: auto;}
+.list-035 li {width: 100%; padding: 0; margin: 3px 0} 
+}

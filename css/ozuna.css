@@ -1,0 +1,18 @@
+/*FIX OZUNA*/
+.cont-caminho-nav li i { font-style: italic; font-size: 13px; color: #1f3f7f; font-weight: bold; }
+.breadcrumb > .active { font-style: italic; font-weight: bold; font-size: 13px; color: #1f3f7f; }
+.breadcrumb > li + li:before { padding: 0 5px; color: #26abe2; content: "-"; font-weight: normal; }
+.breadcrumb { padding:0; margin:0; }
+.nav-menu nav li ul { z-index: 100; }
+.cont-center article .cont-list-manual img.icon-manual { width: 32px; }
+.form-group { margin:10px 0; }
+.error-summary ul { padding: 0;}
+.tuto-item { display: none; }
+.cont-calendario .meses { position: absolute; width: 100%; z-index: 100; border:none; }
+.cont-calendario .meses span { position: absolute; top: 15px; }
+.cont-calendario .meses #mes-prev { left:0; }
+.cont-calendario .meses #mes-prox { right: 0 }
+.cont-calendario .calendar-conteudo span { color: #ffb03c; text-align: center; display: block; }
+.modal-periodo p { margin: 0; }
+.cont-cursos .cont-docente { width:100%;}
+.active-docente .btn {padding-top:10px;}
